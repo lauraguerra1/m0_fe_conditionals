@@ -11,7 +11,7 @@
   // if it is snowy, print "coat"
   // if it is icy, print "yak traks"
 
-var weather = "sunny"
+var weather = "rainy"
 
 if (weather === "sunny") {
   console.log("sunscreen");

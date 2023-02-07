@@ -21,31 +21,31 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 // this should log: "Is numberTeachers greater than numberStudents?" false
 
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
-console.log(numberTeachers < numberStudents)
+console.log(numberTeachers < numberStudents);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers?
-console.log(numberTeachers === stringTeachers)
+console.log(numberTeachers === stringTeachers);
 // this should log: false
 
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
-console.log(numberTeachers !== numberStudents)
+console.log(numberTeachers !== numberStudents);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
-console.log(numberStudents >= 20)
+console.log(numberStudents >= 20);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
-console.log(numberStudents >= 21)
+console.log(numberStudents >= 21);
 // this should log: false
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
-console.log(numberStudents <= 20)
+console.log(numberStudents <= 20);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
-console.log(numberStudents <= 21)
+console.log(numberStudents <= 21);
 // this should log: true
 
 
@@ -59,21 +59,25 @@ console.log(numberStudents <= 21)
 // Make sure YOU can explain it that way!
 
 console.log(4 < 9);
-// YOU DO: Explain.
+// YOU DO: This will log the result of the comparison, is 4 less than 9, to the console. We should 
+// expect this to return "true". 
 
 var books = 3;
 console.log(4 < books);
-// YOU DO: Explain.
+// YOU DO: This will log the result of the comparison, is 4 less than books, to the console. We
+// should expect this to return "false". 
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
-// YOU DO: Explain.
+// YOU DO: This will log the result of the comparison, is friends greater than siblings, to the 
+// console. We should expect this to return "true". 
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
-// YOU DO: Explain.
+// YOU DO: This will log the result of the comparison, is attendees not equal meals, to the  console. 
+// We should expect this to return "true". 
 
 
 // #-------------------
